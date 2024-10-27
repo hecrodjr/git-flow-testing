@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- Added changelog to track commits and versions
+- Adding double quotes to message in command
+- Added justfile to assist with commands
 - Added config file for git-cliff
 - Added git-cliff to the requirements file
 - Added python file ci-process-files
