@@ -13,18 +13,18 @@ help:
     @echo "  just help                       - Show this help message"
 
 # Shortcut to check Git status
-status:
+stat:
     git status
 
 # Shortcut to add all changes and commit with a message
 commit message:
     git add .
-    git commit -m {{message}}
+    git commit -m "{{message}}"
 
 # Shortcut to add a specific file and commit with a message
 commit-file file message:
     git add {{file}}
-    git commit -m {{message}}
+    git commit -m "{{message}}"
 
 # Shortcut to push to a specified branch
 push branch="main":
