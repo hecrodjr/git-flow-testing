@@ -39,3 +39,4 @@ log-sig:
 
 gen-cl:
     git-cliff --bump -o CHANGELOG.md
+    just commit-file CHANGELOG.md "changelog updated"
